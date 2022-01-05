@@ -1,2 +1,2 @@
 # R3ggo
-A website about me
+# I am not gay

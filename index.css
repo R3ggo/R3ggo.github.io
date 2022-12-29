@@ -38,11 +38,11 @@ h1, h2, h3, p {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.images1 {
+.images {
         display: inline-block;
 }
 
-.images2 {
+.bing {
     width: 70vw;
     height: auto;
 }

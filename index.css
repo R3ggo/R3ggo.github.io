@@ -39,7 +39,8 @@ h1, h2, h3, p {
 }
 
 .images {
-    display: inline-block;
+    width: 5vw;
+    height: auto;
 }
 
 .bing {
@@ -62,6 +63,5 @@ h1, h2, h3, p {
 }
 
 img {
-    width: 5vw;
-    height: auto;
+    display: inline-block;
 }

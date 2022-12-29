@@ -40,13 +40,6 @@ h1, h2, h3, p {
 
 .images {
     display: inline-block;
-    width: 5vw;
-    height: auto;
-}
-
-.bing {
-    width: 70vw;
-    height: auto;
 }
 
 #title {
@@ -63,3 +56,7 @@ h1, h2, h3, p {
     margin-bottom: 0.25vw;
 }
 
+img {
+    width: 5vw;
+    height: auto;
+}

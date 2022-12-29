@@ -40,13 +40,10 @@ h1, h2, h3, p {
 
 .images1 {
         display: inline-block;
-        width: 5vw;
-        height: auto;
 }
 
 .images2 {
-    display: inline-block;
-    width: 100vw;
+    width: 70vw;
     height: auto;
 }
 
@@ -62,4 +59,9 @@ h1, h2, h3, p {
     font-family: 'Dancing Script', cursive;
     font-size: 2vw;
     margin-bottom: 0.25vw;
+}
+
+img {
+    width: 5vw;
+    height: auto;
 }

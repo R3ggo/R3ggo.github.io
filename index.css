@@ -32,7 +32,7 @@ h1, h2, h3, p {
     margin-left: auto; 
     margin-right: auto;
     border: 2px;
-    margin: 10px 400px 10px;
+    margin: 5vh 35vw 0vh;
     font-size: 1vw;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -58,4 +58,13 @@ h1, h2, h3, p {
 img {
     width: 5vw;
     height: auto;
+}
+
+#bingle {
+    color: #000000
+}
+
+#zingle {
+    margin: 5vh 13vw 0vh;
+    color: #000000
 }

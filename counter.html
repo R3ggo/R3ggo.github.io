@@ -7,35 +7,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <body>
-        <div id="wrapper">
-            <div id="right_border">
-            </div>
-            <div id="left_border">
-            </div>
-            
-            <div id="main">
-                <h1 id="title">0</h1>
-
-                <button id="bingle">bing</button>
-                <button id="zingle">zing</button>
-
-                <script>
-                    var num = 0
+        <div class="sidenav">
+        </div>
+          
+        <div class="sidenavRight">
+        </div>
+   
+        <div id="main">
+            <h1 id="title">0</h1>
+            <button id="counterUp" class="btn"><b>Decrease</b></button>
+            <button id="counterReset" class="btn"><b>Reset</b></button>
+            <button id="counterDown" class="btn"><b>Increase</b></button>
+            <script>
+                var num = 0
+                document.getElementById("title").innerHTML = num
+                document.getElementById("counterDown").onclick = () => {
+                    num+=1
                     document.getElementById("title").innerHTML = num
-
-                    document.getElementById("zingle").onclick = () => {
-                        num+=1
-                        document.getElementById("title").innerHTML = num
-                        console.log(num)
-                    }
-
-                    document.getElementById("bingle").onclick = () => {
-                        num-=1
-                        document.getElementById("title").innerHTML = num
-                        console.log(num)
-                    }
-                </script>
-            </div>
+                }
+                document.getElementById("counterUp").onclick = () => {
+                    num-=1
+                    document.getElementById("title").innerHTML = num
+                }
+                document.getElementById("counterReset").onclick = () => {
+                    num=0
+                    document.getElementById("title").innerHTML = num
+                }
+            </script>
         </div>
     </body>
 </head>

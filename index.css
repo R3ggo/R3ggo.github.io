@@ -1,37 +1,15 @@
 body {
     background-color: #36393F;
-    margin: 0;
 }
 
 h1, h2, h3, p {
     color: #fdce4c;
 }
 
-#wrapper {
-    float: left;
-}
-
-#left_border, #right_border {
-    width: 15vw;
-    height: 100vh;
-    background-color: #fdce4c;
-}
-
-#left_border {
-    position: left;
-    float: left;
-}
-
-#right_border {
-    position: right;
-    float: right;
-}
-
 #main {
     text-align: center; 
     margin-left: auto; 
     margin-right: auto;
-    border: 2px;
     margin: 5vh 35vw 0vh;
     font-size: 1vw;
     font-family: 'Titillium Web', sans-serif;
@@ -60,11 +38,37 @@ img {
     height: auto;
 }
 
-#bingle {
-    color: #000000
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fdce4c;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-#zingle {
-    margin: 5vh 13vw 0vh;
-    color: #000000
+.sidenavRight {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fdce4c;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
+  
+.btn {
+    background-color: #fdce4c;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }

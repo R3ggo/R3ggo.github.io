@@ -9,6 +9,9 @@
     <body>
         <div id="wrapper">
             <div class="sidenav">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="counter.html">Counter</a></p>
+                <p><a href="free.html">Free Money</a></p>
             </div>
               
             <div class="sidenavRight">
@@ -16,7 +19,7 @@
             
             <div id="main">
                 
-                <button id="zingle">bing</button>
+                <button class="btn" id="boom">Free Money</button>
 
             </div>
         </div>
@@ -24,7 +27,8 @@
         <script>
             var boom = new Audio("vine-boom.mp3")
 
-            document.getElementById("zingle").onclick = () => {
+            document.getElementById("boom").onclick = () => {
+                boom = new Audio("vine-boom.mp3")
                 boom.play()
             }
         </script>

@@ -50,6 +50,17 @@ img {
     padding-top: 20px;
 }
 
+.sidenav a{
+    color: black;
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    display: block;
+}
+
+.sidenav a:hover{
+    color: #36393F;
+}
+
 .sidenavRight {
     height: 100%;
     width: 250px;

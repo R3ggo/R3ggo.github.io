@@ -11,6 +11,7 @@
             <p><a href="index.html">Home</a></p>
             <p><a href="counter.html">Counter</a></p>
             <p><a href="free.html">Free Money</a></p>
+            <img src="R3ggo_dark.png" style="position:absolute; bottom:1vw; height: 10vw; width: 10vw; ">
         </div>
           
         <div class="sidenavRight">
@@ -27,10 +28,18 @@
                 document.getElementById("counterDown").onclick = () => {
                     num+=1
                     document.getElementById("title").innerHTML = num
+                    if(num==67){
+                        var boom = new Audio("vine-boom.mp3")
+                        boom.play()
+                    }
                 }
                 document.getElementById("counterUp").onclick = () => {
                     num-=1
                     document.getElementById("title").innerHTML = num
+                    if(num==67){
+                        var boom = new Audio("vine-boom.mp3")
+                        boom.play()
+                    }
                 }
                 document.getElementById("counterReset").onclick = () => {
                     num=0
